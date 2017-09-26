@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+ <package name="book" namespace="/" extends="struts-default">
+		<action name="Book_*" class="bookaction" method="{1}">
+			<result name="ff">${nextPage}</result>
+			<result name="add">${nextPage}</result>
+			<result name="addfail">${nextPage}</result>
+			<result name="update">${nextPage}</result>
+			<result name="updatefail">${nextPage}</result>
+			<result name="updatesucc">${nextPage}</result>
+			<result name="updatefail">${nextPage}</result>
+			<result name="delete">${nextPage}</result>
+			<result name="deletefail">${nextPage}</result>
+		<result name="deletesucc">${nextPage}</result>
+			<result name="listpage">${nextPage}</result>
+			<result name="error">${nextPage}</result>
+			
+		</action>
+	</package>
+
+</struts>

@@ -1,0 +1,9 @@
+/applicationContext.xml
+/applicationContext_book.xml
+/applicationContext_user.xml
+/com
+/ehcache.xml
+/hibernate.cfg.xml
+/log4j.properties
+/struts.xml
+/struts_book.xml
